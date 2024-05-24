@@ -1,0 +1,35 @@
+{
+    "spørgsmål": [
+      {
+        "spørgsmål": "Hvilket nøgleord bruges til at definere en metode i C#?",
+        "svarmuligheder": ["method", "def", "function", "void"],
+        "rigtigt_svar": "void",
+        "feedback": "I C# definerer vi en metode ved hjælp af nøgleordet 'void', der indikerer, at metoden ikke returnerer en værdi."
+      },
+      {
+        "spørgsmål": "Hvordan opretter man en ny instans af en klasse i C#?",
+        "svarmuligheder": ["ClassName obj = new ClassName();", "ClassName obj = ClassName();", "new ClassName obj = ClassName();", "ClassName obj = create ClassName();"],
+        "rigtigt_svar": "ClassName obj = new ClassName();",
+        "feedback": "I C# oprettes en ny instans af en klasse ved at bruge nøgleordet 'new' efterfulgt af klassens navn."
+      },
+      {
+        "spørgsmål": "Hvad er standard adgangsmodifikator for medlemmer i en klasse?",
+        "svarmuligheder": ["public", "private", "protected", "internal"],
+        "rigtigt_svar": "private",
+        "feedback": "I C# er standard adgangsmodifikator for medlemmer i en klasse 'private', hvilket betyder, at de kun er tilgængelige inden for klassen."
+      },
+      {
+        "spørgsmål": "Hvad bruges 'using' nøgleordet til i C#?",
+        "svarmuligheder": ["For at inkludere navneområder", "For at importere biblioteker", "For at administrere ressourcehåndtering", "Alle ovenstående"],
+        "rigtigt_svar": "Alle ovenstående",
+        "feedback": "Nøgleordet 'using' bruges til at inkludere navneområder, importere biblioteker og administrere ressourcehåndtering med 'using'-erklæringer."
+      },
+      {
+        "spørgsmål": "Hvordan defineres en array i C#?",
+        "svarmuligheder": ["int[] arr = new int[5];", "int arr = [5];", "array<int> arr = new array<int>(5);", "int[] arr = int[5];"],
+        "rigtigt_svar": "int[] arr = new int[5];",
+        "feedback": "En array i C# defineres ved at specificere datatype efterfulgt af tomme kantede parenteser og derefter bruge 'new' nøgleordet med størrelsen af arrayet."
+      }
+    ]
+  }
+  
